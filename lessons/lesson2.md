@@ -282,9 +282,8 @@ export default connect(mapState, mapDispatch)(Home)
 next.js的redux使用和 react的redux使用一模一样，通过 mapState 获得state, mapDispatch来定义方法，在mapDispatch可以通过dispatch触发action，然后action传给reducer参数，使其进行相关操作。
 重启服务后，页面就会出现
 
-![](https://user-gold-cdn.xitu.io/2019/4/1/169d80914f797df9?w=798&h=152&f=png&s=25953)
-点击按钮后变成
-
+![](https://user-gold-cdn.xitu.io/2019/4/1/169d80914f797df9?w=798&h=152&f=png&s=25953)  
+点击按钮后变成  
 ![](https://user-gold-cdn.xitu.io/2019/4/1/169d8099730dfbc1?w=498&h=140&f=png&s=30786)
 ## 四、优化
 上面我们自定义了服务端路由server.js，这里有一个问题，我们访问 ```http://localhost:3000/``` 时候会出现首页，但是如果我们访问 ```http://localhost:3000/home``` 也是会访问到同一个页面，因为next的文件路由我们并没有禁止掉，所以我们需要修改一下 next.config.js，新增一个字段 ```useFileSystemPublicRoutes: false```
