@@ -1,6 +1,10 @@
 ## 写在前面
 next.js是react的同构库，用它可以快速搭建一个react服务端渲染的框架，相比于直接用react配置服务端渲染简单了不少。对于没写过SSR项目，想要尝试一下的同学是个挺好的选择。[next官方文档](http://nextjs.frontendx.cn/docs/#%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E5%88%86%E5%89%B2)  
-[源代码](https://github.com/HJianfeng/nextjs/tree/master/examples/next-demo)
+[源代码](https://github.com/HJianfeng/nextjs/tree/master/examples/next-demo)  
+
+
+[react服务端渲染框架Next.js踩坑（一）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson1.md)  
+[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)
 ## 一、开工
 本次项目基于[cnode社区API](https://cnodejs.org/api)，实现一个完整的SSR项目，主要的技术用到了React 16，react-redux，express和eslint。  
 首先```npm init```初始化项目，安装next和React```npm install --save next react react-dom```然后把下面脚本添加到package.json
@@ -30,7 +34,7 @@ const path = require('path')
 
 module.exports = {
   webpack(config) {
-    const exlintRule = {
+    const eslintRule = {
       enforce: 'pre',
       test: /.(js|jsx)$/,
       loader: 'eslint-loader',
@@ -38,7 +42,7 @@ module.exports = {
         path.resolve(__dirname, '/node_modules'),
       ],
     }
-    config.module.rules.push(exlintRule)
+    config.module.rules.push(eslintRule)
     return config
   }
 }
