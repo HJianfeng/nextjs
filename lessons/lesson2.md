@@ -3,7 +3,10 @@
 
 
 [react服务端渲染框架Next.js踩坑（一）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson1.md)  
-[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)
+[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)  
+[react服务端渲染框架Next.js踩坑（三）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson3.md)  
+
+
 ## 一、引入less
 为了更方便的处理我们的样式，我们选择使用less来处理样式，并使用css modules。css modules很容易学，因为它的规则少，同时又非常有用，可以保证某个组件的样式，不会影响到其他组件。  
 安装less ```npm install less @zeit/next-less --save```，然后更改一下next.config.js，配置css modules很简单，cssModules设置为true就OK了。

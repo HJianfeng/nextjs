@@ -3,7 +3,7 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import withRedux from 'next-redux-wrapper'
 import makeStore from '../store'
-
+import Layout from '../components/Layout'
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -21,7 +21,11 @@ class MyApp extends App {
     return (
       <Container>
         <Provider store={store}>
-          <Component {...pageProps} />
+          <Layout
+            title={pageProps.title}
+          >
+            <Component {...pageProps} />
+          </Layout>
         </Provider>
       </Container>
     )

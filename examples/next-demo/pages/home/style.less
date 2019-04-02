@@ -1,3 +1,108 @@
-.container{
-  background-color: red;
+.main{
+  width: 90%;
+  max-width: 1400px;
+  min-width: 960px;
+  margin: 15px auto;
+  min-height: 400px;
+  .content {
+    background: #fff;
+    min-width: 700px;
+    .contentHeader{
+      padding: 10px;
+      background-color: #f6f6f6;
+      border-radius: 3px 3px 0 0;
+      .topicTab{
+        margin: 0 10px;
+        color: #80bd01;
+        font-size: 14px;
+      }
+      .currentTab{
+        background-color: #80bd01;
+        color: #fff;
+        padding: 3px 4px;
+        border-radius: 3px;
+      }
+    }
+  }
+  .sideBar {
+    width: 290px;
+    font-size: 14px;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+}
+
+.topicItem{
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  position: relative;
+  padding: 10px 0 10px 10px;
+  font-size: 14px;
+  .avatar{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .replayCount{
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    .countReplies{
+      color: #9e78c0;
+      font-size: 13px;
+    }
+    .countSeperator{
+      font-size: 10px;
+      color: #666;
+    }
+    .countVisit{
+      font-size: 10px;
+      color: #b4b4b4;
+    }
+  }
+  .putTop{
+    background: #80bd01;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .topiclistTab{
+    background-color: #e5e5e5;
+    color: #999;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  .topicTitle{
+    margin-left: 5px;
+    color: #333;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .lastReplay{
+    .lastReplayAvatar{
+      height: 18px;
+      width: 18px;
+      vertical-align: middle;
+      margin-right: .5em;
+      border-radius: 3px;
+    }
+  }
+}
+.topicItem:nth-child(1){
+  border-top: none;
 }

@@ -4,7 +4,9 @@ next.js是react的同构库，用它可以快速搭建一个react服务端渲染
 
 
 [react服务端渲染框架Next.js踩坑（一）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson1.md)  
-[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)
+[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)  
+[react服务端渲染框架Next.js踩坑（三）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson3.md)  
+
 ## 一、开工
 本次项目基于[cnode社区API](https://cnodejs.org/api)，实现一个完整的SSR项目，主要的技术用到了React 16，react-redux，express和eslint。  
 首先```npm init```初始化项目，安装next和React```npm install --save next react react-dom```然后把下面脚本添加到package.json

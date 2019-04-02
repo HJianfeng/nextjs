@@ -1,7 +1,7 @@
 import * as constants from './constants'
 
 const defaultState = {
-  homeData: '我是首页',
+  homeData: {},
 }
 
 export default (state = defaultState, action) => {
