@@ -191,7 +191,7 @@ export default Header
 ![](https://user-gold-cdn.xitu.io/2019/4/2/169dbce051c737c5?w=2878&h=196&f=png&s=62472)  
 
 ## 二、axios请求数据
-我们使用axios来请求数据，因为axios在客服端和服务端都能使用。首先安装axios ```npm install axios --save``` 为了方便管理和使用，我们把axios简单封装一下。在根目录创建文件夹utils，utils下新建 axios.js 文件。
+我们使用axios来请求数据，因为axios在客户端和服务端都能使用。首先安装axios ```npm install axios --save``` 为了方便管理和使用，我们把axios简单封装一下。在根目录创建文件夹utils，utils下新建 axios.js 文件。
 ```javascript
 // ~utils/axios.js
 import axios from 'axios'
