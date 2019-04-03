@@ -37,7 +37,6 @@ class Topic extends Component {
 
   render() {
     const { topic } = this.props;
-    console.log(topic)
     return (
       <div className={`${style.topicContainer} flex`}>
         <div className={`${style.content} flex-item`}>
