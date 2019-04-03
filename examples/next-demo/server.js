@@ -13,6 +13,9 @@ app.prepare()
     server.get('/', (req, res) => {
       return app.render(req, res, '/home', req.query)
     })
+    server.get('/topic/:id', (req, res) => {
+      return app.render(req, res, '/topic', req.query)
+    })
 
     server.get('*', (req, res) => {
       return handle(req, res)
