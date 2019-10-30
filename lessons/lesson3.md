@@ -3,10 +3,10 @@
 [源码](https://github.com/HJianfeng/nextjs/tree/master/examples/next-demo)  
 
 
-[react服务端渲染框架Next.js踩坑（一）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson1.md)  
-[react服务端渲染框架Next.js踩坑（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)  
-[react服务端渲染框架Next.js踩坑（三）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson3.md)  
-[react服务端渲染框架Next.js踩坑（四）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson4.md)  
+[react服务端渲染框架Next.js入门（一）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson1.md)  
+[react服务端渲染框架Next.js入门（二）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson2.md)  
+[react服务端渲染框架Next.js入门（三）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson3.md)  
+[react服务端渲染框架Next.js入门（四）](https://github.com/HJianfeng/nextjs/blob/master/lessons/lesson4.md)  
 
 ## 一、页面Header
 [CNode社区](https://cnodejs.org/)所有页面的头部都是一样的，所以我们需要把头部代码抽出来当成公用组件 Header。  
